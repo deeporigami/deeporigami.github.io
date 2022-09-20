@@ -1,0 +1,107 @@
+# A Perspective: Model Risk and Fat Tail Risk in the Climate-Related Risks (CRRs)
+
+Climate-related Risks (CRRs) are path-dependent and extremely uncertain.
+In this context, there are many potential future paths of CRRs in front of us. And no one knows which future will unfold. Since CRRs arise from a highly complex climate system, they are difficult to model.
+
+Typically, there are two types of risk associated with model uses: model risk and tail risk.
+
+-	Model risk is “*the risk of a valuation error from improperly using a model. This risk arises when an organization uses the wrong model or uses the right model incorrectly.*”
+
+-	Tail risk is present when we find more events in the tail of the actual distribution than would be expected by the probability models in use.
+
+    (Chance & Edleson, 2019, p. 21)
+
+To a great part, the financial crisis of 2007/8 might illustrate an example of these two risks. While extensively using advanced portfolio risk models—such as Value at Risk—the financial system expanded the liabilities (on and off the book) beyond their capacity. Those sophisticated models rather encouraged the financial industry to justify excessive risk takings. The use of those models ended up accounting for “an illusion of knowledge” and “an illusion of control”. It fed the causes of a systemic financial crisis and miserably failed to protect the system from the fat tail event. ([Nocera, 2009](https://www.nytimes.com/2009/01/04/magazine/04risk-t.html?pagewanted=1&_r=1))
+
+ Climate-related Risks, if not alleviated, could manifest progressively increasing correlations and unprecedented non-linear developments among risk variables[^1]. They could drive an irreversible systemic paradigm shift in the climate system’s equilibrium[^2]. CRRs could pose a detrimental fat tail risk to our human life. 
+
+From “data-driven risk management” perspective, given the historical lesson of the financial crisis, it would be imperative to address model risks and tail risk in robustly modeling CRRs[^3].
+
+> “*Unfortunately, most climate change assessments rarely consider low-probability, but high consequence extreme events. Instead, they primarily consider scenarios that supposedly “bracket the uncertainty” rather than explicitly integrate unlikely events from the “tails of the distribution.”*” ([Schneider, 2003](https://www.oecd.org/env/cc/2482280.pdf))
+
+CRRs can be divided into two sub-categories: transition risks and physical risks.
+1. Transition Risks might arise during the transition to a lower-carbon economy. And these are risks associated with “policy, legal, technology, and market changes to address mitigation and adaptation requirements related to climate change”. 
+2. Physical Risks can be categorized into acute (event-driven) or chronic risks. 
+   - Acute risks are “*event-driven, including increased severity of extreme weather events, such as cyclones, hurricanes, or floods. such as hostile climate.*” 
+   - Chronic risks “*refer to longer-term shifts in climate patterns*”: e.g., an elevated sea level or chronic heat wave arising from sustained higher temperatures.
+([TCFD, 2017, pp. 5-6](https://assets.bbhub.io/company/sites/60/2020/10/FINAL-2017-TCFD-Report-11052018.pdf))
+
+Below we will focus on “Physical Risks”. 
+
+Property and casualty insurers and re-insurers (property and casualty insurers and re-insurers: collectively call them “the non-life insurers”) has developed their own catastrophe/hazard models to assess insurance risks associated with catastrophe risks. In this backdrop, it is common to apply their framework to assess the physical risk[^4] models today. ([UNEP Finance Initiative, 2019, p. 8](https://www.unepfi.org/publications/changing-course-real-estate-tcfd-pilot-project-report-and-investor-guide-to-scenario-based-climate-risk-assessment-in-real-estate-portfolios/)) 
+Nevertheless, there are some potential limitations in applying the frameworks of their catastrophe/hazard models to assess CRRs. 
+
+Inevitably, the Insurer’s catastrophe model framework inherently suffers from their business biases. And when compared with the nature of CRRs, their biases account for mismatches over the following three factors: namely, risk-profile, time-horizon, and dataset/scenario bias.
+
+Below, I would use “the Insurers” and “the non-life insurers” interchangeably.
+
+## Risk-Profile Mismatch: Systemic vs Non-Systemic risks
+
+Generally speaking, conventional insurance business operates on the principle of “the law of large numbers”. Assuming non-systemic, diversifiable risk which is expected to materialize at a stable known probability, they can pool it and diversify it among a large number of the insureds. In this way, they can expect the total insurance premium income to exceed the total insurance losses (claims) to make profit. In other words, conventional insurance risk management frameworks are not designed for assuming non-diversifiable systemic risks. 
+
+On the contrary, CRRs are manifesting an irreversible trend to depart from the past equilibrium. Their incidences are expected to rise. Since we are in an irreversible transient state, it would be wrong to assess CRRs in a stationarity paradigm. Since CRRs are intensifying across all geographical locations, it would be increasingly systemic and difficult to geographically diversify their insurance risk in the future.
+
+
+
+In the past, property insurance industry invented a class of unconventional products called Alternative Risk Transfer (ART) to cope with the limitation of its conventional risk management framework. The idea of ART is basically a zero-sum game by design. Catastrophe Bonds is an example of ART: insurers want to pass the systemic risks to others in exchange for a series of coupon-like installment payments. In the age of climate change, as the expectation of CRRs rises, Catastrophe Bonds would face an increasing difficulty in finding the buyers. It would become progressively infeasible to market ART products, as CRRs intensify.
+
+Overall, those non-systemic assumptions embedded in the conventional insurance risk management framework would not be compatible with the systemic risk profile of CRRs. In this sense, applying the insurers’ catastrophe/hazard models to CRRs might suffer from “systemic vs non-systemic risk-profile mismatch”.
+
+## Time Horizon Mismatch
+
+Another mismatch is present in time-horizon between the conventional insurer’s risk management framework and CRRs.
+
+In many cases, the terms of property insurance products are typically one year horizon. Inevitably, this business practice has shaped their tendency to set the time-horizon of their catastrophe/hazard risk management framework to be short[^5].    
+
+On the contrary, CRRs are unprecedented and uncertain both in development and in timing: short-, medium-, and long-term horizons. In this sense, CRRs are multi-horizons. 
+
+## Dataset Bias (Scenario Base Mismatch)
+
+This short-term bias of the insurer accounts for an additional mismatch with the profile of CRRs, dataset bias. Based on the assumption that the short-term future can be projected based on historical data, the non-life insurers use historical data and make a set of adjustments on it to assess the catastrophe risk within a short-term horizon.
+
+Tautologically, the past has no information about the unprecedented future that CRRs would manifest[^6]. Any model that employs historical datasets need to be scrutinized at the users’ end for the appropriateness of the embedded assumptions for use[^7]. 
+
+Especially, naïvely applying data-driven machine learning algorithms over the historical data can deceptively overfit to the past pattern and account for the model instability (variance) and underestimate the future risk. Although being good at discovering the historical pattern out of the dataset, they are not designed to anticipate unprecedented non-stationarity changes in the future pattern among the risk variables.
+
+CRRs are path-dependent and extremely uncertain. In a way, there are many potential future paths for CRRs in front of us. Certainly, no one knows which path will unfold. In this context, exploratory scenario analysis might appear more productive than machine learning algorithm since we can incorporate into the model multiple hypothetical scenario paths of CRRs across multi-time-horizons. Nevertheless, scenario analysis suffers from its own inherent limitation by design. It relies on subjective hypothetical scenarios. Some politically charged end-users could exploit a subjective/biased model to generate an underestimated prediction in order to manipulate the public opinion of CRRs' impact.  
+
+## A Perspective
+
+Overall, whatever models we use, we are all the prisoner of our corrupted and/or precarious human nature. It would be worthwhile to remind us of a very insightful remark made by a British Statistician, George E. P. Box: 
+
+> “*All models are wrong, but some are useful*” ([Wikipedia, 2022](https://en.wikipedia.org/wiki/All_models_are_wrong))
+
+No model would liberate us from our self-delusions and political manipulation. Beyond model risk and tail risk, data management professionals need to raise self-awareness on these human defects and maintain independence and objectivity in handling the results generated by whatever models we use[^8].
+
+## Footnotes
+
+[^1] “*Events that are usually uncorrelated may become more correlated because of climate change, e.g. correlation of political risk with droughts or floods. These correlated risks are difficult to quantify and manage and contribute to a greater accumulation of risks.*” ([the Climate Change Working Party, 2020](https://www.actuaries.org.uk/system/files/field/document/Climate-change-report-29072020.pdf))
+
+[^2] “*external forcings such as increases in GHG concentrations can push complex systems from one equilibrium state to another, with non-linear abrupt change as a possible consequence.*” ([Schneider S. H., u.d., Abstract](https://www.researchgate.net/publication/222679887_Abrupt_non-linear_climate_change_irreversibility_and_surprise))
+
+[^3] “*Where a catastrophe model does quantify losses for a region/peril, the process is complex and depends on many assumptions which naturally result in a degree of uncertainty around that loss. This uncertainty increases for more extreme events where there is little empirical experience and instances where exposure data imported into the catastrophe model by the client is of poor quality. It is paramount that the limitations of the model and the uncertainty inherent in its outputs are conveyed effectively during the decision making process. In order for catastrophe models to assist in the forecasting of risk exposure, they must incorporate observed trends.*” ([Toumi & Restell, 2014, p. 9](https://www.lloyds.com/news-and-insights/risk-reports/library/catastrophe-modelling-and-climate-change))
+
+[^4] property casualty insurers and re-insurers: collectively call them “the non-life insurers”
+
+[^5] Physical Risks can be categorized into acute (event-driven) or chronic risks. Acute risks are “event-driven, including increased severity of extreme weather events, such as cyclones, hurricanes, or floods. such as hostile climate.” Chronic risks “refer to longer-term shifts in climate patterns”: e.g., an elevated sea level or chronic heat wave arising from sustained higher temperatures. ([TCFD, 2017, pp. 5-6](https://www.fsb-tcfd.org/recommendations/#:~:text=The%20TCFD%20recommendations%20on%20climate,included%20in%20mainstream%20financial%20filings.))
+
+[^6] “The historical simulation method has the advantage of incorporating events that actually occurred and does not require the specification of a distribution or the estimation of parameters, but it is only useful to the extent that the future resembles the past.” (Chance & McCarthy Beck, 2021, p. 49)
+
+[^7] “When interpreting the historical evidence and projections over the next decades, it is useful to consider any change as a combination of natural variability and an underlying tendency caused by anthropogenic emissions. In the broadest sense those perils with the longest and most robust data sets do show trends that are consistent with the physical understanding as presented by climate models. However, for many extreme perils the natural variability to date is larger than the underlying climate change tendency. Future projections show that in the coming decades the underlying tendency is expected to emerge more clearly.” ([Toumi & Restell, 2014, p. 32](https://www.lloyds.com/news-and-insights/risk-reports/library/catastrophe-modelling-and-climate-change))
+
+[^8] “There is a risk that the different models used by actuaries to calculate premiums, reserves and capital do not adequately represent the reality of a world impacted by climate change (and if they do now, they may not in the future). In particular, actuaries should consider how sensitive their models are to assumptions and data that could be impacted by climate change.” ([the Climate Change Working Party, 2020, p. 10](https://www.actuaries.org.uk/system/files/field/document/Climate-change-report-29072020.pdf))
+
+## References
+
+- AIG2. (2020, August). 2019 Climate-Related Financial Disclosures Report – AIG. Retrieved from https://www.aig.com/content/dam/aig/america-canada/us/documents/about-us/report/aig-climate-related-financial-disclosures-report_2019.pdf
+- Chance, D. M., & Edleson, M. E. (2019). Portfolio Management, Introduction to Risk Management. Retrieved from CFA Institute: https://www.cfainstitute.org/
+- Chance, D. M., & McCarthy Beck, M. (2021). Measuring and Managing Market Risk: REFRESHER READING 2021 CFA PROGRAM • LEVEL II • READING 45 Portfolio Management. Retrieved from www.cfainstitute.org: https://www.cfainstitute.org/-/media/documents/protected/refresher-reading/2021/pdf/measuring-managing-market-risk.ashx
+- Nocera, J. (2009, January 2). Risk Mismanagement. Retrieved from www.nytimes.com: https://www.nytimes.com/2009/01/04/magazine/04risk-t.html?pagewanted=1&_r=1
+- Schneider, S. H. (2003). Abrupt Non-Linear Climate Change, Irreversibility. Retrieved from www.oecd.org: https://www.oecd.org/env/cc/2482280.pdf
+- Schneider, S. H. (u.d.). Abstract: Abrupt non-linear climate change, irreversibility and surprise. Retrieved from researchgate.net: https://www.researchgate.net/publication/222679887_Abrupt_non-linear_climate_change_irreversibility_and_surprise
+- TCFD. (2017, June 15). Recommendations of the Task Force on Climate-related Financial Disclosures. Retrieved from Task Force on Climate-related Financial Disclosures: https://www.fsb-tcfd.org
+- the Climate Change Working Party. (2020, 9 29). Climate Change for Actuaries: Introduction. Retrieved from www.actuaries.org.uk: https://www.actuaries.org.uk/system/files/field/document/Climate-change-report-29072020.pdf
+- Toumi, R., & Restell, L. (2014). Catastrophe Modelling and Climate Change. Retrieved from Lloyd's: https://www.lloyds.com/news-and-insights/risk-reports/library/catastrophe-modelling-and-climate-change
+- UNEP Finance Initiative. (2019, November). Changing Course: Real Estate – TCFD pilot project report and investor guide to scenario-based climate risk assessment in Real Estate Portfolios. Retrieved from UNEP Finance Initiative: https://www.unepfi.org/publications/changing-course-real-estate-tcfd-pilot-project-report-and-investor-guide-to-scenario-based-climate-risk-assessment-in-real-estate-portfolios/
+- Wikipedia. (2022, 9 3). All models are wrong. Retrieved from Wikimedia Foundation: https://en.wikipedia.org/wiki/All_models_are_wrong
+
