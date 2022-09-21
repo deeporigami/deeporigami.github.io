@@ -63,7 +63,7 @@ Tautologically, the past has no information about the unprecedented future that 
 
 Especially, naïvely applying data-driven machine learning algorithms over the historical data can deceptively overfit to the past pattern and account for the model instability (variance) and underestimate the future risk. Although being good at discovering the historical pattern out of the dataset, they are not designed to anticipate unprecedented non-stationarity changes in the future pattern among the risk variables.
 
-CRRs are path-dependent and extremely uncertain. In a way, there are many potential future paths for CRRs in front of us. Certainly, no one knows which path will unfold. In this context, exploratory scenario analysis might appear more productive than machine learning algorithm since we can incorporate into the model multiple hypothetical scenario paths of CRRs across multi-time-horizons. Nevertheless, scenario analysis suffers from its own inherent limitation by design. It relies on subjective hypothetical scenarios. Some politically charged end-users could exploit a subjective/biased model to generate an underestimated prediction in order to manipulate the public opinion of CRRs' impact.  
+CRRs are path-dependent and extremely uncertain. In a way, there are many potential future paths for CRRs in front of us. Certainly, no one knows which path will unfold. In this context, TCFD promotes exploratory scenario analysis might appear more productive than machine learning algorithm since we canas an analytical tool to incorporate into the model multiple hypothetical scenario paths of CRRs across multi-time-horizons(TCFD, 2017, p. 26)[^9]. Nevertheless, scenario analysis suffers from its own inherent limitation by design. It relies on subjective hypothetical scenarios. Some politically charged end-users could exploit a subjective/biased model to generate an underestimated prediction in order to manipulate the public opinion of CRRs' impact.  
 
 ## A Perspective
 
@@ -91,6 +91,11 @@ No model would liberate us from our self-delusions and political manipulation. B
 
 [^8] “There is a risk that the different models used by actuaries to calculate premiums, reserves and capital do not adequately represent the reality of a world impacted by climate change (and if they do now, they may not in the future). In particular, actuaries should consider how sensitive their models are to assumptions and data that could be impacted by climate change.” ([the Climate Change Working Party, 2020, p. 10](https://www.actuaries.org.uk/system/files/field/document/Climate-change-report-29072020.pdf))
 
+[^9] Taskforce of Climate-related Financial Disclosure ([TCFD, 2017, p. 26](https://www.fsb-tcfd.org/recommendations/#:~:text=The%20TCFD%20recommendations%20on%20climate,included%20in%20mainstream%20financial%20filings)) characterizes Exploratory Scenario Analysis as an appropriate method when the potential outcomes could: 
+       •	be highly uncertain
+       •	play out over the medium to longer term
+       •	be disruptive.
+    
 ## References
 
 - AIG2. (2020, August). 2019 Climate-Related Financial Disclosures Report – AIG. Retrieved from https://www.aig.com/content/dam/aig/america-canada/us/documents/about-us/report/aig-climate-related-financial-disclosures-report_2019.pdf
